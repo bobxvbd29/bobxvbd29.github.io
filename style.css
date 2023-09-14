@@ -1,0 +1,316 @@
+body {
+   background-image: url(img/m3.jpg);
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   margin: 0;
+   color: white;
+   font-size: 26px;
+
+
+
+
+
+}
+
+
+/*navbar--------------------------*/
+.navbar {
+
+
+   position: sticky;
+   display: flex;
+   flex-direction: row;
+   margin: 0;
+
+   left: 0;
+   height: 70px;
+   width: 100%;
+   background-color: rgb(55, 54, 54);
+   border-bottom: 2px solid;
+   border-color: blue;
+}
+
+#profile {
+
+
+
+   text-align: center;
+   display: block;
+   width: 120px;
+   height: 50px;
+   color: white;
+   padding: 20px;
+   padding-bottom: 0px;
+   text-decoration: none;
+   border-right: 2px solid;
+   border-color: blue;
+   margin-left: 0;
+   border-radius: 10px;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   text-align: center;
+   font-size: 26px;
+
+   color: white;
+
+
+
+}
+
+#profile:hover {
+   opacity: 0.7
+}
+
+#profile:active {
+   opacity: 0.3
+}
+
+
+/*navbar-------------------------------<<*/
+
+#mg {
+
+   text-align: center;
+   display: block;
+   color: white;
+
+
+}
+
+
+
+
+
+hr {
+   border-radius: 50%;
+   width: 300px;
+
+   margin-bottom: 2px;
+
+
+}
+
+/*image related stuff----------------------*/
+#shroom {
+   border: radius 4px;
+   border: 2px solid;
+
+
+
+}
+
+
+#bocc {
+   border-radius: 4px;
+   border: 2px solid;
+   width: 300px;
+
+}
+
+#renpf {
+   width: 45px;
+}
+
+
+
+
+/*image related stuff----------------------*/
+#mmfg {
+   text-align: center;
+   margin-top: 0px;
+   border-radius: 20px;
+   display: block;
+   height: 300px;
+   width: 300px;
+
+
+
+}
+
+
+#list {
+   text-align: left;
+   color: white;
+   font-size: 26px;
+   margin-left: 50px;
+
+
+
+}
+
+
+#list1 {
+
+   margin-top: 40px;
+   width: 100%;
+   display: flex;
+   justify-content: space-around;
+   gap: 4px;
+
+
+
+
+
+
+
+
+}
+
+#m {
+   width: 100%
+}
+
+
+
+
+footer {
+
+
+
+   display: flex;
+   flex-direction: row;
+   width: 100%;
+   position: absolute;
+   top: 1000px;
+
+   border-top: 2px solid;
+
+   background-color: rgb(31, 31, 31);
+   border-color: blue;
+   margin: 0;
+   height: 50px;
+   margin-bottom: 0;
+   margin-top: 50px;
+
+
+}
+
+
+
+
+#logo {
+   width: 150px;
+
+}
+
+table {
+   font-size: 20px;
+   border: 1px solid;
+   width: 90%;
+   margin-top: auto;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+td {
+   border: 1px solid;
+
+   border-color: rgb(55, 54, 54);
+}
+
+#dash {
+   margin-left: 60px;
+}
+
+
+
+
+
+
+/*sidenav*/
+.sidenav a {
+   position: fixed;
+   left: -198px;
+   transition: 0.2s;
+   padding: 15px;
+   width: 200px;
+
+   font-size: 20px;
+   color: white;
+   border-radius: 0 3px 35px 0;
+}
+
+.sidenav a:hover {
+   left: 0;
+}
+
+#side1 {
+   top: 600px;
+   background-color: rgb(78, 78, 73);
+}
+
+#side2 {
+   top: 550px;
+   background-color: rgb(65, 65, 73);
+}
+
+#side3 {
+   top: 500px;
+   background-color: rgb(52, 52, 73);
+}
+
+#side4 {
+   top: 450px;
+   background-color: rgb(39, 39, 73);
+}
+
+#side5 {
+   top: 400px;
+   background-color: rgb(26, 26, 75);
+}
+
+#side6 {
+   top: 350px;
+   background-color: rgb(13, 13, 73);
+}
+
+.faqt {
+   font-size: larger;
+   font-weight: 900;
+
+
+
+
+}
+
+.faq {
+   display: block;
+   margin-left: 80px;
+}
+
+#blogs {
+   display: flex;
+   margin-left: 90px;
+   flex-direction: column;
+
+
+
+}
+
+#profdiv2 {
+
+   margin-top: 40px;
+   width: 100%;
+   display: flex;
+   justify-content: space-around;
+   gap: 4px;
+}
+
+#links {
+   color: white;
+   text-decoration: none;
+}
+
+#blogs {
+   color: white;
+}
+
+.blogc {
+   color: white;
+
+}
+
+#bl {
+   margin-left: 80px;
+
+
+}
