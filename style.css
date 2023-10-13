@@ -6,22 +6,15 @@ body {
    color: white;
    font-size: 26px;
 
-
-
-
-
 }
 
 
 /*navbar--------------------------*/
 .navbar {
-
-
    position: sticky;
    display: flex;
    flex-direction: row;
    margin: 0;
-
    left: 0;
    height: 70px;
    width: 100%;
@@ -30,10 +23,7 @@ body {
    border-color: blue;
 }
 
-#profile {
-
-
-
+#navbar {
    text-align: center;
    display: block;
    width: 120px;
@@ -49,53 +39,48 @@ body {
    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
    text-align: center;
    font-size: 26px;
-
    color: white;
+}
 
-
+header {
+   background-color: rgba(51, 49, 49, 0.568);
+   margin-top: 0px;
 
 }
 
-#profile:hover {
+#header {
+   margin-top: 0px;
+}
+
+#navbar:hover {
    opacity: 0.7
 }
 
-#profile:active {
+#navbar:active {
    opacity: 0.3
 }
-
 
 /*navbar-------------------------------<<*/
 
 #mg {
-
+   margin-top: 0px;
    text-align: center;
    display: block;
    color: white;
-
-
 }
-
-
-
-
 
 hr {
    border-radius: 50%;
-   width: 300px;
-
+   width: 260px;
    margin-bottom: 2px;
-
+   margin: 0px;
 
 }
 
 /*image related stuff----------------------*/
 #shroom {
-   border: radius 4px;
+   border-radius: 4px;
    border: 2px solid;
-
-
-
 }
 
 
@@ -103,14 +88,11 @@ hr {
    border-radius: 4px;
    border: 2px solid;
    width: 300px;
-
 }
 
 #renpf {
    width: 45px;
 }
-
-
 
 
 /*image related stuff----------------------*/
@@ -122,8 +104,6 @@ hr {
    height: 300px;
    width: 300px;
 
-
-
 }
 
 
@@ -132,65 +112,41 @@ hr {
    color: white;
    font-size: 26px;
    margin-left: 50px;
-
-
-
 }
 
 
 #list1 {
-
    margin-top: 40px;
    width: 100%;
    display: flex;
    justify-content: space-around;
    gap: 4px;
-
-
-
-
-
-
-
-
 }
 
 #m {
-   width: 100%
+   align-self: center;
+   width: 99.9%;
+   color: blue;
 }
-
-
-
 
 footer {
 
-
-
+   position: sticky;
    display: flex;
    flex-direction: row;
    width: 100%;
-   position: absolute;
    top: 1000px;
-
    border-top: 2px solid;
-
    background-color: rgb(31, 31, 31);
    border-color: blue;
    margin: 0;
    height: 50px;
-   margin-bottom: 0;
-   margin-top: 50px;
 
-
-}
-
-
-
-
-#logo {
-   width: 150px;
+   bottom: 0;
 
 }
+
+
 
 table {
    font-size: 20px;
@@ -203,7 +159,6 @@ table {
 
 td {
    border: 1px solid;
-
    border-color: rgb(55, 54, 54);
 }
 
@@ -223,7 +178,6 @@ td {
    transition: 0.2s;
    padding: 15px;
    width: 200px;
-
    font-size: 20px;
    color: white;
    border-radius: 0 3px 35px 0;
@@ -266,33 +220,28 @@ td {
 .faqt {
    font-size: larger;
    font-weight: 900;
-
-
-
-
 }
 
 .faq {
    display: block;
    margin-left: 80px;
+   margin-right: 80px;
 }
 
-#blogs {
-   display: flex;
-   margin-left: 90px;
-   flex-direction: column;
 
 
-
-}
-
-#profdiv2 {
-
+#profileinfo {
    margin-top: 40px;
    width: 100%;
    display: flex;
    justify-content: space-around;
    gap: 4px;
+
+
+}
+
+#profilediv {
+   margin-bottom: 40px;
 }
 
 #links {
@@ -300,17 +249,117 @@ td {
    text-decoration: none;
 }
 
-#blogs {
-   color: white;
-}
 
-.blogc {
-   color: white;
 
-}
+
 
 #bl {
    margin-left: 80px;
+}
+
+#ind {
+
+   width: 450px;
+   text-align: left;
+}
+
+#line {
+   width: 600px;
+
+}
+
+#personalinfo {
+
+   width: 1000px;
+   justify-content: space-around;
+}
+
+.information {
+   height: 900px
+}
+
+details>summary {
+   padding: 4px;
+
+   background-color: rgba(51, 49, 49, 0.568);
+   border-color: white;
+   border-radius: 25px;
+   box-shadow: 1px 1px 2px #bbbbbb;
+   cursor: pointer;
+   font-size: 30px;
 
 
+}
+
+details>p {
+   background-color: rgba(51, 49, 49, 0.568);
+   border-color: white;
+   border-radius: 25px;
+   padding: 4px;
+   margin: 0;
+   box-shadow: 1px 1px 2px #bbbbbb;
+   margin-bottom: 5px;
+   font-size: 30px;
+
+}
+
+#question {
+   margin-bottom: 20px;
+
+}
+
+/* blog */
+
+
+.bloglink {
+   color: white;
+   text-decoration: none;
+
+}
+
+#blogbox {
+   height: 60px;
+   background-color: rgba(51, 49, 49, 0.568);
+   border-color: white;
+   margin: 5px;
+   border-radius: 25px;
+   margin-top: 25px;
+   border: 1px solid;
+   box-shadow: 1px 1px 2px #bbbbbb;
+}
+
+#blogboxcontent {
+
+   margin-left: 25px;
+   font-size: 30px;
+
+}
+
+#b {
+   margin: 15px;
+   height: 100%;
+   width: 100%;
+}
+
+#hzlogo {
+   margin-left: 15px;
+
+}
+
+#bloginfo {
+
+   margin-left: 90px;
+   margin-right: 90px;
+}
+
+#blogbox:hover {
+   opacity: 0.8;
+
+}
+
+#blogs {
+   display: flex;
+   margin-left: 90px;
+   margin-right: 90px;
+   flex-direction: column;
 }
