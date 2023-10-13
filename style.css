@@ -8,7 +8,6 @@ body {
 
 }
 
-
 /*navbar--------------------------*/
 .navbar {
    position: sticky;
@@ -83,7 +82,6 @@ hr {
    border: 2px solid;
 }
 
-
 #bocc {
    border-radius: 4px;
    border: 2px solid;
@@ -93,7 +91,6 @@ hr {
 #renpf {
    width: 45px;
 }
-
 
 /*image related stuff----------------------*/
 #mmfg {
@@ -106,14 +103,12 @@ hr {
 
 }
 
-
 #list {
    text-align: left;
    color: white;
    font-size: 26px;
    margin-left: 50px;
 }
-
 
 #list1 {
    margin-top: 40px;
@@ -146,8 +141,6 @@ footer {
 
 }
 
-
-
 table {
    font-size: 20px;
    border: 1px solid;
@@ -165,11 +158,6 @@ td {
 #dash {
    margin-left: 60px;
 }
-
-
-
-
-
 
 /*sidenav*/
 .sidenav a {
@@ -228,15 +216,12 @@ td {
    margin-right: 80px;
 }
 
-
-
 #profileinfo {
    margin-top: 40px;
    width: 100%;
    display: flex;
    justify-content: space-around;
    gap: 4px;
-
 
 }
 
@@ -248,10 +233,6 @@ td {
    color: white;
    text-decoration: none;
 }
-
-
-
-
 
 #bl {
    margin-left: 80px;
@@ -279,8 +260,8 @@ td {
 }
 
 details>summary {
-   padding: 4px;
 
+   padding: 4px;
    background-color: rgba(51, 49, 49, 0.568);
    border-color: white;
    border-radius: 25px;
@@ -292,6 +273,7 @@ details>summary {
 }
 
 details>p {
+
    background-color: rgba(51, 49, 49, 0.568);
    border-color: white;
    border-radius: 25px;
@@ -309,7 +291,6 @@ details>p {
 }
 
 /* blog */
-
 
 .bloglink {
    color: white;
